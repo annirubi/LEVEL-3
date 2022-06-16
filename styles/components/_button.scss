@@ -1,0 +1,118 @@
+.btn--info {
+    outline: none;
+    border: 2px solid $color-white;
+    background: none;
+    padding: 18px 90px;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 25px;
+    text-transform: capitalize;
+    color: $color-white;
+    transition: border 0.3s, color 0.3s;
+
+        &:hover {
+            cursor: pointer;
+            border: 2px solid $color-coral;
+            color: $color-coral;
+        }
+
+        @media (max-width: 1024px) {
+            padding: 14px 70px;
+        }
+        @media (max-width: 568px) {
+            padding: 10px 95px;
+        }
+    }
+
+    .btn--tab {
+        outline: none;
+        border: none;
+        background-color: $color_coral;
+        padding: 18px 90px;
+        font-weight: 600;
+        font-size: 18px;
+        line-height: 25px;
+        text-transform: capitalize;
+        color: $color-white;
+        transition: background-color 0.3s;
+        cursor: pointer;
+        margin-top: 27px;
+        margin-left: 65px;
+
+        &:hover {
+            background-color: $color_dark_coral;
+        }
+
+        @media (max-width: 1024px) {
+            padding: 18px 70px;
+            margin-top: 35px;
+        }
+        @media (max-width: 568px) {
+            padding: 14px 75px;
+            display: block;
+            margin: 0 auto;
+            margin-top: 29px;
+        }
+    }
+
+    .btn--summary {
+        outline: none;
+        border: 2px solid $color-white;
+        background: none;
+        padding: 18px 90px;
+        font-weight: 600;
+        font-size: 18px;
+        line-height: 25px;
+        text-transform: capitalize;
+        color: $color-white;
+        transition: border 0.3s, color 0.3s;
+        width: 370px;
+        height: 58px;
+        margin: 0 auto;
+        display: block;
+    
+            &:hover {
+                cursor: pointer;
+                border: 2px solid $color-coral;
+                color: $color-coral;
+            }
+        @media (max-width: 1024px) {
+            width: 318px;
+        }
+        @media (max-width: 568px) {
+            width: 287px;
+            height: 50px;
+            padding-top: 10px;
+        }
+    }
+
+    .contact-btn {
+        width: 370px;
+        height: 58px;
+        outline: none;
+        border: none;
+        background-color: $color_coral;
+        padding: 18px 90px;
+        font-weight: 600;
+        font-size: 18px;
+        line-height: 25px;
+        text-transform: capitalize;
+        color: $color-white;
+        transition: background-color 0.3s;
+        cursor: pointer;
+        display: block;
+        margin: 0 auto;
+        margin-top: 50px;
+
+        &:hover {
+            background-color: $color_dark_coral;
+        }
+
+        @media (max-width: 1024px) {
+            width: 318px;
+        }
+        @media (max-width: 1024px) {
+            width: 288px;
+            padding: 18px 20px;
+        }
+    } 

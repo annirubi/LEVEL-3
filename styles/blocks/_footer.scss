@@ -1,0 +1,61 @@
+.footer {
+    width: 100%;
+    background-color: $color_dark_black;
+
+    &__icons {
+        padding-top: 35px;
+        padding-bottom: 28px;
+        display: flex;
+        justify-content: center;
+        column-gap: 32px;
+
+        @media (max-width: 1024px) {
+            column-gap: 27px;
+        }
+        @media (max-width: 568px) {
+            column-gap: 17px;
+            padding-bottom: 35px;
+        }
+    }
+
+    .social-logo {
+        width: 53px;
+        height: 53px;
+        cursor: pointer;
+        transition: stroke .7s;
+
+        &:hover {
+            stroke: rgb(94, 175, 237);
+        }
+
+        @media (max-width: 1024px) {
+            width: 45px;
+            height: 45px;
+        }
+        @media (max-width: 568px) {
+            width: 26px;
+            height: 26px;
+        }
+    }
+
+    &__copyright {
+        font-family: 'Raleway';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 21px;
+        color: $color_pricing_grey;
+        text-align: center;
+        padding-bottom: 27px;
+
+        @media (max-width: 1024px) {
+            font-size: 14px;
+            line-height: 16px;
+        }
+        @media (max-width: 568px) {
+            font-size: 14px;
+            line-height: 16px;
+            padding-bottom: 50px;
+        }
+    }
+}
