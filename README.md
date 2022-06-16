@@ -1,7 +1,7 @@
 # HOMEWORK 13 💫
 LEVEL-3 layout. 
 Here is the link:
-[My project] (https://annirubi.github.io/Level-3/)
+[My project] (https://annirubi.github.io/LEVEL-3/)
 
 Level-3 layout with the Media Queries and Preprocessors. 
 What was done:
